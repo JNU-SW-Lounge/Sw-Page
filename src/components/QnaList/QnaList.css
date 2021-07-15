@@ -1,0 +1,62 @@
+.q-title {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.q-list {
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.q-content {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: space-between;
+}
+
+.q-list > thead {
+  border-bottom: 1px solid black;
+}
+
+.q-list th {
+  height: 50px;
+  color: black;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.q-list > tbody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.q-list tr {
+  height: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+}
+
+.q-list td {
+  max-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.q-list .q-l-title {
+  text-align: start;
+  cursor: pointer;
+}
+
+.q-list .q-l-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.q-l-title a:hover {
+  color: gray;
+}

@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  height: 100px;
+  top: 0;
+}
+
+.header > a {
+  color: black;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
